@@ -1,0 +1,29 @@
+.piechart {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: conic-gradient(pink 35.6%,lightblue 0 64.4% );
+}
+.box{
+    border: 2px solid black;
+    text-align:center;
+    padding: 25px;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 7%;
+}
+a:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+a:active{
+    box-shadow: 0 0 0 white;
+}
