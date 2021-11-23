@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding-top: 25px;
+    margin: 25px;
+}
+.flex1{
+    flex-basis: 37.5%;
+    background-color: #78e7ff;
+    border: 1px solid black;
+    text-align: center;
+}
+.flex2{
+    flex-basis: 44.07%;
+    background-color: #71d8ee;
+    border: 1px solid black;
+    text-align: center;
+}
+.flex3{
+    flex-basis: 11.92%;
+    background-color: #65d3d4;
+    border: 1px solid black;
+    text-align: center;
+}
+.flex4{
+    flex-basis: 2.52%;
+    background-color: #25bbbf;
+    border: 1px solid black;
+    text-align: center;
+}
+.flex5{
+    flex-basis: 0.99%;
+    background-color: #1f8b8f;
+    border: 1px solid black;
+    text-align: center;
+}
+.flex6{
+    flex-basis: 3%;
+    background-color: #0f6164;
+    border: 1px solid black;
+    text-align: center;
+}
