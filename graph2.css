@@ -30,7 +30,7 @@
 ::before{
   font-size:0.8em;
   font-weight:bold;
-  content:'0%';
+  content:'';
   position:absolute;
   left:-0.5em;
   top:-1.5em;
@@ -56,10 +56,7 @@
     
 ::after{
   content:attr(data-name);
-  margin-left:100%;
-  padding:10px;
   display:inline-block;
-  white-space:nowrap;
 }
 a{
   text-decoration: none;
