@@ -1,27 +1,30 @@
+body{
+  background-color: beige;
+}
 h1{
-    text-align:center;
-    padding: 35px;
+  text-align:center;
+  padding: 35px;
 }
 .container{
-    position: absolute;
-    top: 30%;
-    left: 42%;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  top: 30%;
+  left: 42%;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
 }
 .donut {
-    width: 150px;
-    height: 150px;
-    border: double 1em transparent;
-    border-radius: 100%;
-    background-image: linear-gradient(white, white), conic-gradient(green 32.8%, rgb(255, 36, 36) 0 61.8%);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    text-align:center;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+  width: 150px;
+  height: 150px;
+  border: double 1em transparent;
+  border-radius: 100%;
+  background-image: linear-gradient(beige, beige), conic-gradient(green 32.8%, rgb(255, 36, 36) 0 61.8%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align:center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 .center{
     display: flex;
@@ -30,19 +33,19 @@ h1{
     padding: 35% 0;
 }
 a{
-    text-decoration: none;
-    color: #000000;
-    padding: 30px;
-    margin: 10px;
-    text-align: center;
-    font-size: x-large;
-    font-weight: bold;
-    border: 2px solid black;
-    border-radius: 7%;
+  text-decoration: none;
+  color: #000000;
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 7%;
   }
-  a:hover{
-    box-shadow: 5px 5px 5px grey;
-  }
-  a:active{
-    box-shadow: 0 0 0 white;
-  }
+a:hover{
+  box-shadow: 5px 5px 5px grey;
+}
+a:active{
+  box-shadow: 0 0 0 white;
+}
