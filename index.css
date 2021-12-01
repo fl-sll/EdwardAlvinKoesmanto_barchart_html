@@ -8,18 +8,23 @@ h2{
     text-align: center;
 }
 a{
+    position: relative;
+    float: left;
     text-decoration: none;
     color: black;
-    padding: 70px;
-    margin: 20px;
+    padding: 3%;
+    margin-top: 0.5%;
+    margin: 1.8%;
     text-align: center;
-    font-size: x-large;
+    font-size: 2vw;
     font-weight: bold;
     border: 2px solid black;
-    border-radius: 7%;
+    border-radius: 12px;
+    width: 10%;
+    height: auto;
 }
 a:hover{
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 1% 1% 1.5% grey;
 }
 a:active{
     box-shadow: 0 0 0 white;
